@@ -18,7 +18,6 @@ function duplicateToAll(){
     app.activeDocument = curDoc;
   }
   ungroupLayerset();
-  alert('"Duplicate to All" complete');
 }
 function ungroupLayerset(){
   var m_Dsc01 = new ActionDescriptor();
